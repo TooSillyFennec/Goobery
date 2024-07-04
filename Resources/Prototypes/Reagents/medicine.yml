@@ -209,37 +209,37 @@
             types:
              Cellular: -2
 
-- type: reagent
-  id: Dermaline
-  name: reagent-name-dermaline
-  group: Medicine
-  desc: reagent-desc-dermaline
-  physicalDesc: reagent-physical-desc-translucent
-  flavor: medicine
-  color: "#215263"
-  metabolisms:
-    Medicine:
-      effects:
-      - !type:HealthChange
-        damage:
-          types:
-            Heat: -1.5
-            Shock: -1.5
-            Cold: -1.5
-      - !type:HealthChange
-        conditions:
-        - !type:ReagentThreshold
-          min: 10
-        damage:
-          types:
-            Asphyxiation: 1
-            Cold: 2
-          groups:
-            Brute: 0.5
-      - !type:Jitter
-        conditions:
-        - !type:ReagentThreshold
-          min: 10
+#- type: reagent (Commented out, comment back in if changes get reverted)
+#  id: Dermaline
+#  name: reagent-name-dermaline
+#  group: Medicine
+#  desc: reagent-desc-dermaline
+#  physicalDesc: reagent-physical-desc-translucent
+#  flavor: medicine
+#  color: "#215263"
+#  metabolisms:
+#   Medicine:
+#      effects:
+#      - !type:HealthChange
+#        damage:
+#          types:
+#            Heat: -1.5
+#            Shock: -1.5
+#            Cold: -1.5
+#      - !type:HealthChange
+#        conditions:
+#        - !type:ReagentThreshold
+#          min: 10
+#        damage:
+#          types:
+#            Asphyxiation: 1
+#            Cold: 2
+#          groups:
+#            Brute: 0.5
+#      - !type:Jitter
+#       conditions:
+#        - !type:ReagentThreshold
+#          min: 10
 
 - type: reagent
   id: Dexalin
@@ -428,38 +428,38 @@
       - !type:ModifyBleedAmount
         amount: -0.25
 
-- type: reagent
-  id: Kelotane
-  name: reagent-name-kelotane
-  group: Medicine
-  desc: reagent-desc-kelotane
-  physicalDesc: reagent-physical-desc-strong-smelling
-  flavor: medicine
-  color: "#bf3d19"
-  metabolisms:
-    Medicine:
-      effects:
-      - !type:HealthChange
-        damage:
-          types:
-            Heat: -0.33
-            Shock: -0.33
-            Cold: -0.33
-      - !type:SatiateThirst
-        factor: -10
-        conditions:
-        - !type:ReagentThreshold
-          min: 30
-      - !type:PopupMessage
-        type: Local
-        messages:
-        - generic-reagent-effect-nauseous
-        - generic-reagent-effect-thirsty
-        - generic-reagent-effect-parched
-        probability: 0.1
-        conditions:
-        - !type:ReagentThreshold
-          min: 25
+#- type: reagent (Commented out, comment back in if changes get reverted)
+#  id: Kelotane
+#  name: reagent-name-kelotane
+#  group: Medicine
+#  desc: reagent-desc-kelotane
+#  physicalDesc: reagent-physical-desc-strong-smelling
+#  flavor: medicine
+#  color: "#bf3d19"
+#  metabolisms:
+#    Medicine:
+#      effects:
+#      - !type:HealthChange
+#        damage:
+#          types:
+#            Heat: -0.33
+#            Shock: -0.33
+#            Cold: -0.33
+#      - !type:SatiateThirst
+#        factor: -10
+#        conditions:
+#        - !type:ReagentThreshold
+#          min: 30
+#      - !type:PopupMessage
+#        type: Local
+#       messages:
+#        - generic-reagent-effect-nauseous
+#        - generic-reagent-effect-thirsty
+#        - generic-reagent-effect-parched
+#        probability: 0.1
+#        conditions:
+#        - !type:ReagentThreshold
+#         min: 25
 
 - type: reagent
   id: Leporazine
@@ -475,7 +475,7 @@
       - !type:HealthChange
         damage:
           types:
-            Cold: -4
+            Cold: -2 # Goobstation
       - !type:AdjustTemperature
         conditions:
         - !type:Temperature
@@ -1079,12 +1079,12 @@
   color: "#aa4308"
   metabolisms:
     Medicine:
-      metabolismRate: 0.1 # slow metabolism to not be a godly combat med, its for treating burn victims efficiently
+    #  metabolismRate: 0.1 # slow metabolism to not be a godly combat med, its for treating burn victims efficiently- hey there pyrazine contrib, how about no >:3 - Goob
       effects:
       - !type:HealthChange
         damage:
           types:
-            Heat: -1
+            Heat: -2 # Goobstation
       # od causes massive bleeding
       - !type:HealthChange
         conditions:
@@ -1121,7 +1121,7 @@
       - !type:HealthChange
         damage:
           types:
-            Shock: -4
+            Shock: -2 # Goobstation - Hah, get fucked greytider. Shock weapons are a week away~
       - !type:AdjustReagent
         reagent: Licoxide
         amount: -4
