@@ -23,7 +23,7 @@ reagent-name-dermaline = dermaline
 reagent-desc-dermaline = A chemical that is effective at treating burn damage, but uses water inside your body, thus dehydrating people.
 
 reagent-name-dexalin = dexalin
-reagent-desc-dexalin = Used for treating minor oxygen deprivation and bloodloss. A required reagent for dexalin plus.
+reagent-desc-dexalin = Used for treating oxygen deprivation and bloodloss. Myths of a "Dexalin Plus" are false.
 
 reagent-name-dexalin-plus = dexalin plus
 reagent-desc-dexalin-plus = Used in treatment of extreme cases of oxygen deprivation and bloodloss. Flushes heartbreaker toxin out of the blood stream.
