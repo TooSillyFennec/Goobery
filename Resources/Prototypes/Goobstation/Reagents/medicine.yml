@@ -148,3 +148,33 @@
         - !type:ReagentThreshold
           min: 10.5
   
+- type: reagent
+  id: Ultravasculine # id kept since the chem's the same really, despite the reskin and clean. get goobed on by "good code" aka a myth in any ss13/14 repo. Too lazy to change EVERY instance
+  name: reagent-name-penetic # Get penetic'd
+  group: Medicine
+  desc: reagent-desc-penetic
+  physicalDesc: reagent-physical-desc-thick-and-grainy
+  flavor: medicine
+  color: "#33001a"
+  metabolisms:
+    Medicine:
+      effects:
+      - !type:HealthChange
+        conditions:
+        - !type:ReagentThreshold
+          min: 0
+          max: 30
+        damage:
+          groups:
+            Toxin: -3
+            Brute: 0.5
+      - !type:HealthChange
+        conditions:
+        - !type:ReagentThreshold
+          min: 30
+        damage:
+          groups:
+            Toxin: -1
+            Brute: 3
+      - !type:ChemCleanBloodstream
+        cleanseRate: 1 # Much weaker charcoal effect to replace the totally useless histamine effect and mimic 13
