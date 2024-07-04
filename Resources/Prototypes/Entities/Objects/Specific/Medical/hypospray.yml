@@ -165,7 +165,7 @@
   name: poison auto-injector
   parent: ChemicalMedipen
   id: AntiPoisonMedipen
-  description: A rapid dose of anti-poison. Contains ultravasculine and epinephrine.
+  description: A rapid dose of anti-poison. Contains penetic acid and epinephrine. # Goobstation
   components:
   - type: Sprite
     sprite: Objects/Specific/Medical/medipen.rsi
@@ -192,7 +192,7 @@
   name: brute auto-injector
   parent: ChemicalMedipen
   id: BruteAutoInjector
-  description: A rapid dose of bicaridine and tranexamic acid, intended for combat applications
+  description: A rapid dose of bicaridine and salicylic acid, intended for combat applications # goobstation
   components:
   - type: Sprite
     sprite: Objects/Specific/Medical/medipen.rsi
@@ -205,18 +205,18 @@
     emptySpriteName: bicpen_empty
   - type: Hypospray
     solutionName: pen
-    transferAmount: 20
+    transferAmount: 30
     onlyAffectsMobs: false
     injectOnly: true
   - type: SolutionContainerManager
     solutions:
       pen:
-        maxVol: 20
+        maxVol: 30
         reagents:
         - ReagentId: Bicaridine
-          Quantity: 15
-        - ReagentId: TranexamicAcid
-          Quantity: 5
+          Quantity: 20
+        - ReagentId: SalicylicAcid
+          Quantity: 10
   - type: Tag
     tags: []
 
@@ -224,7 +224,7 @@
   name: burn auto-injector
   parent: ChemicalMedipen
   id: BurnAutoInjector
-  description: A rapid dose of dermaline and leporazine, intended for combat applications
+  description: A rapid dose of oxandlrone and pyrazine, intended for combat applications # goobstation
   components:
   - type: Sprite
     sprite: Objects/Specific/Medical/medipen.rsi
@@ -245,9 +245,9 @@
       pen:
         maxVol: 20
         reagents:
-        - ReagentId: Dermaline
+        - ReagentId: Oxandlrone
           Quantity: 10
-        - ReagentId: Leporazine
+        - ReagentId: Pyrazine
           Quantity: 10
   - type: Tag
     tags: []
