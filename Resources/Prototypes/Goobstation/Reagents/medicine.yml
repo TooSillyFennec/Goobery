@@ -1,0 +1,72 @@
+- type: reagent
+  id: Bicaridine
+  name: reagent-name-bicaridine
+  group: Medicine
+  desc: reagent-desc-bicaridine
+  physicalDesc: reagent-physical-desc-opaque
+  flavor: medicine
+  color: "#ffaa00"
+  metabolisms:
+    Medicine:
+      effects:
+      - !type:HealthChange
+        damage:
+          groups:
+            Brute: -1.5
+      - !type:HealthChange
+        conditions:
+        - !type:ReagentThreshold
+          min: 20 
+        damage:
+          types:
+            Asphyxiation: 0.5
+            Poison: 1.5
+      - !type:ChemVomit
+        conditions:
+        - !type:ReagentThreshold
+          min: 30
+        probability: 0.02
+      - !type:Jitter
+        conditions:
+        - !type:ReagentThreshold
+          min: 20
+      - !type:MovespeedModifier
+        walkSpeedModifier: 0.8
+        sprintSpeedModifier: 0.8
+
+- type: reagent
+  id: SalicylicAcid
+  name: reagent-name-salicylicacid
+  group: Medicine
+  desc: reagent-desc-salicylicacid
+  physicalDesc: reagent-physical-desc-mucus-like
+  flavor: medicine
+  color: "#ffe6f2"
+  metabolisms:
+    Medicine:
+      effects:
+     - !type:HealthChange
+        conditions:
+        - !type:TotalDamage
+          max: 30
+        damage:
+          groups:
+            Brute: -0.75
+     - !type:HealthChange
+        conditions:
+        - !type:TotalDamage
+          min: 30
+        damage:
+          groups:
+            Brute: -3
+      - !type:HealthChange
+        conditions:
+        - !type:ReagentThreshold
+          min: 15.5
+        damage:
+          groups:
+            Brute: 6
+      - !type:Jitter
+        conditions:
+        - !type:ReagentThreshold
+          min: 15.5
