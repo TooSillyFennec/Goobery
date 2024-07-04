@@ -13,3 +13,15 @@
       amount: 1
   products:
     SalicylicAcid: 5
+
+- type: reaction
+  id: Oxandlrone
+  reactants:
+    Phenol:
+      amount: 1
+    Dermaline:
+      amount: 1
+    Carbon:
+      amount: 3
+  products:
+    Oxandlrone: 5
