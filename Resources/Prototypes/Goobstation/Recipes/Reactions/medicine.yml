@@ -25,3 +25,15 @@
       amount: 3
   products:
     Oxandlrone: 5
+  
+- type: reaction
+  id: Ultravasculine # AKA Penetic. Same niche, id wasn't changed to make life easier
+  reactants:
+    Plasma:
+      amount: 1 # Really, Fenn? Yes! 3x as good as dylo, the old standard for pois. Also 13 uses cyanide/weld/ammonia/formaldehyde/table salt for fucks sake. Easier, better? make that shit cost plasma~
+    Dylovene:
+      amount: 1
+    TableSalt:
+      amount: 1
+  products:
+    Ultravasculine: 3
