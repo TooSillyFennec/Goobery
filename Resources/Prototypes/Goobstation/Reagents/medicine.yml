@@ -178,3 +178,39 @@
             Brute: 3
       - !type:ChemCleanBloodstream
         cleanseRate: 1 # Much weaker charcoal effect to replace the totally useless histamine effect and mimic 13
+        
+- type: reagent
+  id: DexalinPlus # Same reason as ultra/penetic, same niche and makes the HELL of a PR like this less hell. This is Salbutamol. 13's salb has no damage min/max, but this one does w/ extra healing.
+  name: reagent-name-salbutamol
+  group: Medicine
+  desc: reagent-desc-salbutamol
+  physicalDesc: reagent-physical-desc-cloudy
+  flavor: medicine
+  color: "#99ffff"
+  metabolisms:
+    Medicine:
+      effects:
+      - !type:HealthChange
+        conditions:
+          - !type:TotalDamage
+            min: 30 
+        damage:      
+          types:
+            Asphyxiation: -4
+            Bloodloss: -4
+      - !type:HealthChange
+        conditions:
+          - !type:TotalDamage
+            max: 30 
+        damage:      
+          types:
+            Asphyxiation: -1
+            Bloodloss: -1
+      - !type:HealthChange
+        conditions:
+          - !type:ReagentThreshold
+            min: 15.5
+        damage:
+          types:
+            Asphyxiation: 8
+            Bloodloss: 8
