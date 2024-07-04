@@ -93,14 +93,14 @@
 - type: reaction
   id: Dermaline
   reactants:
-    Kelotane:
-      amount: 1
+  # Kelotane: Goobstation, kelotane was removed so :3
+  #   amount: 1
     Oxygen:
       amount: 1
     Phosphorus:
       amount: 1
   products:
-    Dermaline: 3
+    Dermaline: 2
 
 - type: reaction
   id: Dexalin
@@ -171,15 +171,15 @@
   products:
     TranexamicAcid: 3
 
-- type: reaction
-  id: Kelotane
-  reactants:
-    Silicon:
-      amount: 1
-    Carbon:
-      amount: 1
-  products:
-    Kelotane: 2
+#- type: reaction - Ew, kelotane. (Commented out, comment back in if changes get reverted)
+#  id: Kelotane
+#  reactants:
+#    Silicon:
+#      amount: 1
+#    Carbon:
+#      amount: 1
+#  products:
+#    Kelotane: 2
 
 - type: reaction
   id: Leporazine
