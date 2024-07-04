@@ -255,48 +255,48 @@
       - !type:HealthChange
         damage:
           types:
-            Asphyxiation: -1
-            Bloodloss: -0.5
+            Asphyxiation: -2 # Goobstation - Makes up for well... Dex+ being brutally murked.
+            Bloodloss: -2 # Goobstation
       - !type:HealthChange
         conditions:
           - !type:ReagentThreshold
             min: 20
         damage:
           types:
-            Asphyxiation: 3
+            Asphyxiation: 4 # Goobstation
             Cold: 1
 
-- type: reagent
-  id: DexalinPlus
-  name: reagent-name-dexalin-plus
-  group: Medicine
-  desc: reagent-desc-dexalin-plus
-  physicalDesc: reagent-physical-desc-cloudy
-  flavor: medicine
-  color: "#4da0bd"
-  metabolisms:
-    Medicine:
-      effects:
-      - !type:HealthChange
-        damage:
-          types:
-            Asphyxiation: -3.5
-            Bloodloss: -3
-      - !type:AdjustReagent
-        conditions:
-        - !type:ReagentThreshold
-          reagent: HeartbreakerToxin
-          min: 1
-        reagent: HeartbreakerToxin
-        amount: -3
-      - !type:HealthChange
-        conditions:
-          - !type:ReagentThreshold
-            min: 25
-        damage:
-          types:
-            Asphyxiation: 5
-            Cold: 3
+#- type: reagent - Always hated dex+ as a name. well great, she's a corpse now!!! - Goob
+#  id: DexalinPlus
+#  name: reagent-name-dexalin-plus
+#  group: Medicine
+#  desc: reagent-desc-dexalin-plus
+#  physicalDesc: reagent-physical-desc-cloudy
+#  flavor: medicine
+#  color: "#4da0bd"
+#  metabolisms:
+#    Medicine:
+#      effects:
+#      - !type:HealthChange
+#        damage:
+#          types:
+#            Asphyxiation: -3.5
+#            Bloodloss: -3
+#      - !type:AdjustReagent
+#        conditions:
+#        - !type:ReagentThreshold
+#          reagent: HeartbreakerToxin
+#          min: 1
+#        reagent: HeartbreakerToxin
+#        amount: -3
+#      - !type:HealthChange
+#        conditions:
+#         - !type:ReagentThreshold
+#            min: 25
+#        damage:
+#          types:
+#            Asphyxiation: 5
+#           Cold: 3
 
 # this ones a doozy
 - type: reagent
@@ -759,15 +759,15 @@
       - !type:HealthChange
         conditions:
         - !type:TotalDamage
-          max: 50
+          max: 40 # Goobstation
         damage:
           groups:
-            Brute: -1
+            Brute: -1.5 # Get buffed11!!1!1 and yeah tricor's actually Good now! if you are below 40 health at least >:3 - Goob
           types:
-            Poison: -0.5 ##Should be about what it was when it healed the toxin group
-            Heat: -0.33
-            Shock: -0.33
-            Cold: -0.33
+            Poison: -1 ##Should be about what it was when it healed the toxin group- Also buffed as of now - G
+            Heat: -0.5 # Goobstation - only heat now, but at derma level. too bad derma's very... lame now.
+          # Shock: -0.33
+          # Cold: -0.33
 
 - type: reagent
   id: Lipozine
