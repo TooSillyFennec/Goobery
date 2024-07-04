@@ -114,13 +114,13 @@
     Dexalin: 3
 
 - type: reaction
-  id: DexalinPlus
+  id: DexalinPlus # For salbutamol. 
   reactants:
     Dexalin:
       amount: 1
-    Carbon:
+    Ammonia: # Goobstation
       amount: 1
-    Iron:
+    Lithium: # Goobstation
       amount: 1
   products:
     DexalinPlus: 3
@@ -253,7 +253,7 @@
 - type: reaction
   id: HeartbreakerToxin
   reactants:
-    DexalinPlus:
+    Dexalin: # Goobstation
       amount: 1
     MindbreakerToxin:
       amount: 1
