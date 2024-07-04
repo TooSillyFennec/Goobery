@@ -805,13 +805,13 @@
             Brute: -2
 
 - type: reagent
-  id: Ultravasculine
-  name: reagent-name-ultravasculine
+  id: Ultravasculine # id kept since the chem's the same, despite the reskin. get goobed on by "good code" aka a myth in any ss13/14 repo
+  name: reagent-name-penetic # Get penetic'd - Goobstation
   group: Medicine
-  desc: reagent-desc-ultravasculine
+  desc: reagent-desc-penetic # Goobstation
   physicalDesc: reagent-physical-desc-thick-and-grainy
   flavor: medicine
-  color: "#520e30"
+  color: "#33001a" # Goobstation
   metabolisms:
     Medicine:
       effects:
