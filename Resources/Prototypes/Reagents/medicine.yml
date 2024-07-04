@@ -138,7 +138,7 @@
 #    Medicine:
 #      effects:
 #      - !type:HealthChange
-#       damage:
+#        damage:
 #          groups:
 #            Brute: -2
 #      - !type:HealthChange
