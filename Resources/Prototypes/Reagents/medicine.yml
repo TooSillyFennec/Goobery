@@ -804,48 +804,48 @@
             Airloss: -2
             Brute: -2
 
-- type: reagent
-  id: Ultravasculine # id kept since the chem's the same, despite the reskin. get goobed on by "good code" aka a myth in any ss13/14 repo
-  name: reagent-name-penetic # Get penetic'd - Goobstation
-  group: Medicine
-  desc: reagent-desc-penetic # Goobstation
-  physicalDesc: reagent-physical-desc-thick-and-grainy
-  flavor: medicine
-  color: "#33001a" # Goobstation
-  metabolisms:
-    Medicine:
-      effects:
-      - !type:HealthChange
-        conditions:
-        - !type:ReagentThreshold
-          min: 0
-          max: 30
-        damage:
-          groups:
-            Toxin: -3
-            Brute: 0.5
-      - !type:HealthChange
-        conditions:
-        - !type:ReagentThreshold
-          min: 30
-        damage:
-          groups:
-            Toxin: -1
-            Brute: 3
-      - !type:AdjustReagent
-        conditions:
-        - !type:ReagentThreshold
-          reagent: Histamine
-          min: 1
-        reagent: Histamine
-        amount: -1
-      - !type:AdjustReagent
-        conditions:
-        - !type:ReagentThreshold
-          reagent: Histamine
-          min: 1
-        reagent: Ultravasculine
-        amount: 0.5
+#- type: reagent - Don't crucify me, the line difference marks what's unused code aka the time i fucked up, and the lower marks what's apart of the old code. Probably not hard to rever??? - Goob
+#  id: Ultravasculine # id kept since the chem's the same, despite the reskin. get goobed on by "good code" aka a myth in any ss13/14 repo
+#  name: reagent-name-penetic # Get penetic'd - Goobstation
+#  group: Medicine
+# desc: reagent-desc-penetic # Goobstation
+#  physicalDesc: reagent-physical-desc-thick-and-grainy
+#  flavor: medicine
+#  color: "#33001a" # Goobstation
+#  metabolisms:
+#    Medicine:
+#      effects:
+#     - !type:HealthChange
+#        conditions:
+#        - !type:ReagentThreshold
+#          min: 0
+#          max: 30
+#        damage:
+#          groups:
+#            Toxin: -3
+#           Brute: 0.5
+     # - !type:HealthChange
+     #   conditions:
+     #   - !type:ReagentThreshold
+     #     min: 30
+     #   damage:
+     #     groups:
+     #       Toxin: -1
+     #       Brute: 3
+     # - !type:AdjustReagent
+     #   conditions:
+     #   - !type:ReagentThreshold
+     #     reagent: Histamine
+     #     min: 1
+     #   reagent: Histamine
+     #   amount: -1
+     # - !type:AdjustReagent
+     #   conditions:
+     #   - !type:ReagentThreshold
+     #     reagent: Histamine
+     #     min: 1
+     #   reagent: Ultravasculine
+     #   amount: 0.5
 
 - type: reagent
   id: Oculine
