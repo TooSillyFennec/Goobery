@@ -513,32 +513,32 @@
 
 - type: entity
   name: pill
-  suffix: Kelotane 10u
+  suffix: Dermaline 10u # Goobstation. easy cheatsy way to pull off kelo - derm replacement
   parent: Pill
   id: PillKelotane
   components:
   - type: Pill
-    pillType: 3
+    pillType: 7 # Goob!?!?!??!
   - type: Sprite
-    state: pill4
+    state: pill8
   - type: Label
-    currentLabel: kelotane 10u
+    currentLabel: Dermaline 10u
   - type: SolutionContainerManager
     solutions:
       food:
         maxVol: 20
         reagents:
-        - ReagentId: Kelotane
+        - ReagentId: Dermaline # Goob
           Quantity: 10
 
 - type: entity
   name: pill canister
   parent: PillCanister
   id: PillCanisterKelotane
-  suffix: Kelotane 10u, 5
+  suffix: Dermaline 10u, 5
   components:
   - type: Label
-    currentLabel: kelotane 10u
+    currentLabel: dermaline 10u
   - type: StorageFill
     contents:
     - id: PillKelotane
@@ -546,32 +546,32 @@
 
 - type: entity
   name: pill
-  suffix: Dermaline 10u
+  suffix: Oxandlrone 10u # Derm's changed to oxand. Easy way to do this. Take everything here as goobcode.
   parent: Pill
   id: PillDermaline
   components:
   - type: Pill
-    pillType: 7
+    pillType: 3
   - type: Sprite
-    state: pill8
+    state: pill4
   - type: Label
-    currentLabel: dermaline 10u
+    currentLabel: oxandlrone 10u
   - type: SolutionContainerManager
     solutions:
       food:
         maxVol: 20
         reagents:
-        - ReagentId: Dermaline
+        - ReagentId: Oxandlrone
           Quantity: 10
 
 - type: entity
   name: pill canister
   parent: PillCanister
   id: PillCanisterDermaline
-  suffix: Dermaline 10u, 5
+  suffix: oxandlrone 10u, 5
   components:
   - type: Label
-    currentLabel: dermaline 10u
+    currentLabel: oxandlrone 10u
   - type: StorageFill
     contents:
     - id: PillDermaline
