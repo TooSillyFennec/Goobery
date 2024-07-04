@@ -41,7 +41,7 @@
   desc: reagent-desc-salicylicacid
   physicalDesc: reagent-physical-desc-mucus-like
   flavor: medicine
-  color: "#ffe6f2"
+  color: "#ffe6f2" 
   metabolisms:
     Medicine:
       effects:
@@ -70,3 +70,81 @@
         conditions:
         - !type:ReagentThreshold
           min: 15.5
+
+- type: reagent
+  id: Dermaline
+  name: reagent-name-dermaline
+  group: Medicine
+  desc: reagent-desc-dermaline
+  physicalDesc: reagent-physical-desc-translucent
+  flavor: medicine
+  color: "#215263"
+  metabolisms:
+    Medicine:
+      effects:
+      - !type:HealthChange
+        damage:
+          types:
+            Heat: -0.5
+            Shock: -0.5
+            Cold: -0.5
+      - !type:HealthChange
+        conditions:
+        - !type:ReagentThreshold
+          min: 15
+        damage:
+          types:
+            Asphyxiation: 1
+            Cold: 2
+          groups:
+            Brute: 0.5
+      - !type:Jitter
+        conditions:
+        - !type:ReagentThreshold
+          min: 15
+      - !type:SatiateThirst
+        factor: -3 # Dermaline hydrates your damaged, burnt skin... by using that water inside!
+
+- type: reagent
+  id: Oxandlrone # sal but burn, same as 13 in that regard. When you think about it, old Derma kinda gets replaced by oxandlrone here, but meh. An actual reason to get advanced meds, and mix 2 together!
+  name: reagent-name-oxandlrone
+  group: Medicine
+  desc: reagent-desc-oxandlrone
+  physicalDesc: reagent-physical-desc-translucent
+  flavor: medicine
+  color: "#e6e600" # Mix w/ beer for the closest concoction to piss. Don't thank me.
+  metabolisms:
+    Medicine:
+      effects:
+      - !type:HealthChange
+        conditions:
+          - !type:TotalDamage
+            min: 30
+        damage:
+          types:
+            Heat: -1
+            Shock: -1
+            Cold: -1
+      - !type:HealthChange
+        conditions:
+          - !type:TotalDamage
+            max: 30
+        damage:
+          types:
+            Heat: -0.25
+            Shock: -0.25
+            Cold: -0.25
+      - !type:HealthChange
+        conditions:
+        - !type:ReagentThreshold
+          min: 10.5
+        damage:
+          types:
+            Heat: 2
+            Shock: 2
+            Cold: 2
+      - !type:Jitter
+        conditions:
+        - !type:ReagentThreshold
+          min: 10.5
+  
