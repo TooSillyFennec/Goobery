@@ -6,3 +6,6 @@ reagent-desc-oxandlrone = A heavy-duty chemical that stabilizes the severely bur
 
 reagent-name-penetic = penetic acid
 reagent-desc-penetic = A complicated anti-toxin solution that quickly flushes out toxins and heals the damage left behind while causing minor stress on the body. Overdose causes extreme pain.
+
+reagent-name-salbutamol = salbutamol
+reagent-desc-salbutamol = A heavy-duty chemical that stabilizes the suffocated and reverses the effect of bloodloss, but is barely effective on people with less wounds. Overdosing will reverse the effect however.
