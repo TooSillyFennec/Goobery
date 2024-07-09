@@ -350,6 +350,6 @@
   suffix: Conducting
   components:
   - type: Insulated
-    coefficient: 5 # zap em good
+    coefficient: 10 # Goobstation - Get a shock off by these, and a crit's deserved. still hard to secure a kill however.
   - type: Tag
     tags: [] # ignore "WhitelistChameleon" tag
