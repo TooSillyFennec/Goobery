@@ -19,7 +19,7 @@
     - suitStorage
   - type: AmmoCounter
   - type: Gun
-    fireRate: 0.75
+    fireRate: 1 # Goobstation
     selectedMode: SemiAuto
     availableModes:
     - SemiAuto
@@ -48,7 +48,7 @@
     sprite: Objects/Weapons/Guns/Snipers/bolt_gun_wood.rsi
 
 - type: entity
-  name: Hristov
+  name: Hristov # Move to goob folder after rework! 0.6 speed, cartridge at 80 pierce, add scope feature from CM14's sniper. Mag needs 6 capacity also.
   parent: [BaseWeaponSniper, BaseGunWieldable]
   id: WeaponSniperHristov
   description: A portable anti-materiel rifle. Fires armor piercing 14.5mm shells. Uses .60 anti-materiel ammo.
