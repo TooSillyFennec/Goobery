@@ -24,13 +24,13 @@
   - type: AmmoCounter
   - type: Gun
     selectedMode: SemiAuto
-    fireRate: 1.5
+    fireRate: 2 # Goobstation
     availableModes:
     - SemiAuto
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/revolver.ogg
   - type: UseDelay
-    delay: 0.66
+    delay: 0.5 # Goobstation
   - type: ContainerContainer
     containers:
       revolver-ammo: !type:Container
@@ -64,8 +64,8 @@
     - state: mag-unshaded-3
       map: ["enum.GunVisualLayers.MagUnshaded"]
       shader: unshaded
-  - type: Gun
-    fireRate: 2
+   - type: Gun
+    fireRate: 2.5 # Goobstation
   - type: RevolverAmmoProvider
     capacity: 5
     chambers: [ True, True, True, True, True ]
@@ -120,7 +120,7 @@
     sprite: Objects/Weapons/Guns/Revolvers/python.rsi
   - type: Gun
     selectedMode: SemiAuto
-    fireRate: 2
+    fireRate: 2.5 # Goobstation
     availableModes:
     - SemiAuto
     soundGunshot:
