@@ -1,0 +1,11 @@
+- type: entity
+  id: BulletPistolAP
+  name: bullet (.35 auto AP)
+  parent: BaseBullet
+  noSpawn: true
+  components:
+  - type: Projectile
+    damage:
+      types:
+        Piercing: 12
+    ignoreResistances: true
