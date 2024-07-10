@@ -13,7 +13,7 @@
       map: ["enum.GunVisualLayers.Mag"]
 
 - type: entity
-  id: MagazinePistolSubMachineGun
+  id: MagazinePistolSubMachineGunAP
   name: SMG magazine (.35 auto AP)
   parent: BaseMagazinePistolSubMachineGun
   components:
