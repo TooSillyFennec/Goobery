@@ -8,7 +8,7 @@
   productEntity: WeaponPistolViper
   cost:
     # Goobstation - Telecrystal rework
-    Telecrystal: 15
+    Telecrystal: 14 # this +1 mag = 20 TC
   categories:
   - UplinkWeaponry
 
@@ -19,7 +19,7 @@
   productEntity: WeaponRevolverPythonAP
   cost:
     # Goobstation - Telecrystal rework
-    Telecrystal: 30 # Originally was 13 TC but was not used due to high cost. 13 TC = 65 TC nowadays, and the same happened at 8/40 TC. Buffed and lower price.
+    Telecrystal: 24 # Originally was 65 TC but was not used due to high cost. and the same happened at 40 TC. +2 mags = 40 TC.
   categories:
   - UplinkWeaponry
 
@@ -31,7 +31,7 @@
   productEntity: WeaponPistolCobra
   cost:
     # Goobstation - Telecrystal rework
-    Telecrystal: 20
+    Telecrystal: 17 # this +1 mag = 25 TC
   categories:
   - UplinkWeaponry
 
@@ -43,7 +43,7 @@
   productEntity: WeaponSniperMosin
   cost:
     # Goobstation - Telecrystal rework
-    Telecrystal: 5 # Barely even worth 5 in the old state. Thing got a milllddd buff however.
+    Telecrystal: 4 # Barely even worth 5 in the old state. Thing got a milllddd buff however. still better at 4 to match other handguns and consumables.
   categories:
   - UplinkWeaponry
 
@@ -207,7 +207,7 @@
   productEntity: GrenadeFlashBang
   cost:
     # Goobstation - Telecrystal rework
-    Telecrystal: 5
+    Telecrystal: 4 # grenade balancing applies
   categories:
   - UplinkExplosives
 
@@ -218,7 +218,7 @@
   productEntity: SmokeGrenade
   cost:
     # Goobstation - Telecrystal rework
-    Telecrystal: 5
+    Telecrystal: 4 # grenade balancing applies
   categories:
   - UplinkExplosives
 
@@ -278,7 +278,7 @@
   productEntity: C4
   cost:
     # Goobstation - Telecrystal rework
-    Telecrystal: 8 # We have a ten tens or 100 TC system, lets use the bastard. Better than 13's yet 10 TC's pretty crappy price.
+    Telecrystal: 8 # We have a ten tens or 100 TC system, lets use the bastard. Better than 13's yet 10 TC's a pretty crappy price.
   categories:
   - UplinkExplosives
 
@@ -372,7 +372,7 @@
   productEntity: ClusterGrenade
   cost:
     # Goobstation - Telecrystal rework
-    Telecrystal: 30
+    Telecrystal: 24 # Best grenade in the game currently, but very hard to predict how it explodes.
   categories:
   - UplinkExplosives
 
@@ -419,7 +419,7 @@
   productEntity: MagazinePistol
   cost:
     # Goobstation - Telecrystal rework
-    Telecrystal: 5
+    Telecrystal: 6 # Harder to spam mags, not that people really viper spam and they have more space.
   categories:
   - UplinkAmmo
 
@@ -432,7 +432,7 @@
   productEntity: MagazinePistolSubMachineGun
   cost:
     # Goobstation - Telecrystal rework
-    Telecrystal: 10
+    Telecrystal: 15 # Bundle + Mag = 100 TC
   categories:
   - UplinkAmmo
 
@@ -445,7 +445,7 @@
   productEntity: MagazinePistolCaselessRifle
   cost:
     # Goobstation - Telecrystal rework
-    Telecrystal: 5
+    Telecrystal: 8 # People actually spam these more than other ammo types, makes sense to be at improved level price.
   categories:
   - UplinkAmmo
 
@@ -458,7 +458,7 @@
   productEntity: SpeedLoaderMagnumAP
   cost:
     # Goobstation - Telecrystal rework
-    Telecrystal: 15
+    Telecrystal: 8 # AP, improved level
   categories:
   - UplinkAmmo
 
@@ -470,7 +470,7 @@
   productEntity: MagazineBoxLightRifle
   cost:
     # Goobstation - Telecrystal rework
-    Telecrystal: 5
+    Telecrystal: 6 # Gun + Box = 10 TC
   categories:
   - UplinkAmmo
 
@@ -481,7 +481,7 @@
 #  description: uplink-sniper-ammo-desc
 #  productEntity: MagazineBoxAntiMateriel
 #  cost:
-   # Goobstation - Telecrystal rework
+#   # Goobstation - Telecrystal rework
 #    Telecrystal: 10
 #  categories:
 #  - UplinkAmmo
