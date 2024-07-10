@@ -605,7 +605,7 @@
   productEntity: Stimpack
   cost:
     # Goobstation - Telecrystal rework
-    Telecrystal: 10 # Fuck off, 1 TC per 1.5 seconds? get fucked. 
+    Telecrystal: 10 # 1 TC per 3 seconds.
   categories:
   - UplinkChemicals
 
@@ -616,7 +616,7 @@
   productEntity: StimkitFilled
   cost:
     # Goobstation - Telecrystal rework
-    Telecrystal: 30 
+    Telecrystal: 30 # -25% Price over the same units 
   categories:
   - UplinkChemicals
 
