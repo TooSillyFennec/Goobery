@@ -10,7 +10,7 @@ uplink-pistol-magazine-ap-c20r-name = SMG magazine (.35 auto AP)
 uplink-pistol-magazine-ap-c20r-desc = Rifle magazine with 30 AP catridges. Compatible with C-20r.
 
 uplink-pistol-magazine-incend-c20r-name = SMG magazine (.35 auto incendiary)
-uplink-pistol-magazine-incendc20r-desc = Rifle magazine with 30 incendiary catridges. Compatible with C-20r.
+uplink-pistol-magazine-incend-c20r-desc = Rifle magazine with 30 incendiary catridges. Compatible with C-20r.
 
 # Misc
 
