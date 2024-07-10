@@ -1,7 +1,7 @@
 - type: entity
   id: CartridgePistol
-  name: cartridge (.35 auto)
-  parent: BaseCartridgePistol
+  name: cartridge (.35 auto AP)
+  parent: BaseCartridgePistolAP
   components:
   - type: CartridgeAmmo
     proto: BulletPistolAP
