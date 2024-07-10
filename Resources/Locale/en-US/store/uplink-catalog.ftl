@@ -80,7 +80,7 @@ uplink-shrapnel-grenade-desc = Launches a spray of sharp fragments dealing great
 
 # Ammo
 uplink-pistol-magazine-name = Pistol Magazine (.35 auto)
-uplink-pistol-magazine-desc = Pistol magazine with 10 catridges. Compatible with the Viper.
+uplink-pistol-magazine-desc = Pistol magazine with 12 catridges. Compatible with the Viper.
 
 uplink-pistol-magazine-c20r-name = SMG magazine (.35 auto)
 uplink-pistol-magazine-c20r-desc = Rifle magazine with 30 catridges. Compatible with C-20r.
@@ -291,7 +291,7 @@ uplink-cluster-banana-peel-name = Cluster Banana
 uplink-cluster-banana-peel-desc = Splits into 6 explosive banana peels after being thrown, the peels detonate automatically after 20 seconds if nobody slips on them.
 
 uplink-cane-blade-name = Cane Blade
-uplink-cane-blade-desc = A cane that has a hidden blade that can be unsheathed.
+uplink-cane-blade-desc = A cane that has a hidden, strange blade that can be unsheathed. Stolen from a curator's personal museum. Lights people on fire via an ancient enchantment.
 
 # Armor
 uplink-chameleon-name = Chameleon Kit
