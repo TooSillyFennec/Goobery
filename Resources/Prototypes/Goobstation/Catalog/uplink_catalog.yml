@@ -55,30 +55,6 @@
     Telecrystal: 100
   catergories:
   - UplinkWeaponry
-    
-- type: listing
-  id: UplinkPistol9mmMagazineAP
-  name: uplink-pistol-magazine-ap-name
-  description: uplink-pistol-magazine-ap-desc
-  icon: { sprite: /Textures/Objects/Weapons/Guns/Ammunition/Magazine/Pistol/pistol_mag.rsi, state: red-icon }
-  productEntity: MagazinePistolAP
-  cost:
-    # Goobstation - Telecrystal rework
-    Telecrystal: 8
-  catergories:
-  - UplinkAmmo
-
-- type: listing
-  id: UplinkPistol9mmMagazineIncendiary
-  name: uplink-pistol-magazine-incend-name
-  description: uplink-pistol-magazine-incend-desc
-  icon: { sprite: /Textures/Objects/Weapons/Guns/Ammunition/Magazine/Pistol/pistol_mag.rsi, state: red-icon }
-  productEntity: MagazinePistolIncendiary
-  cost:
-    # Goobstation - Telecrystal rework
-    Telecrystal: 8 
-  categories:
-  - UplinkAmmo
 
 # For the C20R, AP
 - type: listing
