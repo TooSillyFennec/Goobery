@@ -1,0 +1,42 @@
+- type: entity
+  parent: ClothingBackpackDuffelSyndicateBundle
+  id: ClothingBackpackDuffelSyndicateFilledAKMS
+  name: AKMS Bundle
+  description: "The AKMS, a refurbished yet highly effective variant of the classic AK, bundled with three magazines."
+  components:
+  - type: StorageFill
+    contents:
+      - id: WeaponRifleAK
+      - id: MagazineLightRifle
+        amount: 2
+
+- type: entity
+  parent: ClothingBackpackDuffelSyndicateBundle
+  id: ClothingBackpackDuffelSyndicateFilledCsor
+  name: C-20r bundle
+  description: "Old faithful: The classic C-20r Submachine Gun, bundled with three magazines." 
+  components:
+  - type: StorageFill
+    contents:
+      - id: WeaponSubMachineGunCsor
+      - id: MagazineMagnumSubMachineGun
+        amount: 2
+
+- type: entity
+  parent: ClothingBackpackDuffelSyndicateAmmo
+  id: ClothingBackpackDuffelSyndicateAmmoFilled
+  name: ammo bundle
+  description: "Reloading! Contains 2 mags for the C20, AKMS, Csor and Bulldog as well as 1 box for the L6."
+  components:
+  - type: StorageFill
+    contents:
+      - id: MagazinePistolSubMachineGun
+        amount: 2
+      - id: MagazineShotgun
+        amount: 2
+      - id: MagazineMagnumSubMachineGun
+        amount: 2
+      - id: MagazineLightRifle
+        amount: 2
+      - id: MagazineLightRifleBox
+        amount: 1
