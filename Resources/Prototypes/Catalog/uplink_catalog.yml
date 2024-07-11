@@ -462,17 +462,17 @@
   categories:
   - UplinkAmmo
 
-# For the mosin
-- type: listing
-  id: UplinkMosinAmmo
-  name: uplink-mosin-ammo-name
-  description: uplink-mosin-ammo-desc
-  productEntity: MagazineBoxLightRifle
-  cost:
-    # Goobstation - Telecrystal rework
-    Telecrystal: 6 # Gun + Box = 10 TC
-  categories:
-  - UplinkAmmo
+## For the mosin
+#- type: listing
+#  id: UplinkMosinAmmo
+#  name: uplink-mosin-ammo-name
+#  description: uplink-mosin-ammo-desc
+#  productEntity: MagazineBoxLightRifle
+#  cost:
+#    # Goobstation - Telecrystal rework
+#    Telecrystal: 5
+#  categories:
+#  - UplinkAmmo
 
 # for the hristov
 #- type: listing
