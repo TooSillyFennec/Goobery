@@ -31,6 +31,17 @@
     Telecrystal: 50
   categories:
   - UplinkWeaponry
+  
+- type: listing
+  id: UplinkContractorBaton
+  name: uplink-contractor-baton-name
+  description: uplink-contractor-baton-desc
+  productEntity: ContractorBaton
+  cost:
+    # Goobstation - Telecrystal rework
+    Telecrystal: 50
+  categories:
+  - UplinkWeaponry
 
 - type: listing
   id: UplinkPistolMagazineSubMachineGunAP
