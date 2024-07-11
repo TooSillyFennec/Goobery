@@ -9,9 +9,6 @@ uplink-magazine-akms-desc = Rifle magazine with 25 catridges. Compatible with th
 uplink-magazine-ap-akms-name = AKMS magazine (.30 rifle AP)
 uplink-magazine-ap-akms-desc = AKMS magazine with 25 AP catridges. Compatible with the AKMS..
 
-uplink-magazine-csor-name = C.S.O.R magazine (.45 magnum)
-uplink-magazine-csor-desc = Percision Rifle magazine with 18 catridges. Compatible with the C.S.O.R.
-
 uplink-magazine-bulldog-name = .50 Buckshot Shotgun Drum
 uplink-magazine-bulldog-desc = Shotgun drum with 8 .50 Buckshot Shells. Compatible with the Bulldog.
 
