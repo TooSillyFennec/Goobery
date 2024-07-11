@@ -23,7 +23,7 @@
     maxAngle: 45
     angleIncrease: 4
     angleDecay: 16
-    fireRate: 9 # Goobstation
+    fireRate: 8
     selectedMode: FullAuto
     availableModes:
       - FullAuto
@@ -48,11 +48,11 @@
             - MagazineLightRifleBox
       gun_chamber:
         name: Chamber
-        startingItem: CartridgeRifle # Goobstation
+        startingItem: CartridgeLightRifle
         priority: 1
         whitelist:
           tags:
-            - CartridgeRifle # Goobstation
+            - CartridgeLightRifle
   - type: ContainerContainer
     containers:
       gun_magazine: !type:ContainerSlot
@@ -66,7 +66,7 @@
   name: L6 SAW
   id: WeaponLightMachineGunL6
   parent: BaseWeaponLightMachineGun
-  description: A rather traditionally made LMG with a pleasantly lacquered wooden pistol grip. Uses .20 rifle ammo. # Goobstation
+  description: A rather traditionally made LMG with a pleasantly lacquered wooden pistol grip. Uses .30 rifle ammo.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/LMGs/l6.rsi
@@ -92,7 +92,7 @@
       maxAngle: 25
       angleIncrease: 4
       angleDecay: 16
-      fireRate: 9 # Goobstation
+      fireRate: 8 
       selectedMode: FullAuto
       availableModes:
         - FullAuto
@@ -113,7 +113,7 @@
       containers:
         ballistic-ammo: !type:Container
     - type: ProjectileBatteryAmmoProvider
-      proto: CartridgeRifle
+      proto: CartridgeLightRifle
       fireCost: 100
     - type: Battery
       maxCharge: 10000
