@@ -1,7 +1,0 @@
-- type: entity
-  id: CartridgeLightRifleAP
-  name: cartridge (.30 rifle)
-  parent: BaseCartridgeLightRifle
-  components:
-  - type: CartridgeAmmo
-    proto: BulletLightRifleAP
