@@ -11,32 +11,18 @@
         amount: 2
 
 - type: entity
-  parent: ClothingBackpackDuffelSyndicateBundle
-  id: ClothingBackpackDuffelSyndicateFilledCsor
-  name: C.S.O.R bundle
-  description: "The extremely lethal .45 magnum percision rifle, the C.S.O.R bundled with three magazines! Buy from Cybersun today!" 
-  components:
-  - type: StorageFill
-    contents:
-      - id: WeaponSubMachineGunCsor
-      - id: MagazineMagnumSubMachineGun
-        amount: 2
-
-- type: entity
   parent: ClothingBackpackDuffelSyndicateAmmo
   id: ClothingBackpackDuffelSyndicateAmmoFilled
   name: ammo bundle
-  description: "Reloading! Contains 2 mags for the C20, AKMS, Csor and Bulldog as well as 1 box for the L6."
+  description: "Reloading! Contains 3 mags for the C20, AKMS, and Bulldog as well as 1 box for the L6."
   components:
   - type: StorageFill
     contents:
       - id: MagazinePistolSubMachineGun
-        amount: 2
+        amount: 3
       - id: MagazineShotgun
-        amount: 2
-      - id: MagazineMagnumSubMachineGun
-        amount: 2
+        amount: 3
       - id: MagazineLightRifle
-        amount: 2
+        amount: 3
       - id: MagazineLightRifleBox
         amount: 1
