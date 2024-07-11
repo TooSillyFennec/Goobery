@@ -115,7 +115,7 @@
     sprite: Objects/Weapons/Guns/Shotguns/db_shotgun_inhands_64x.rsi
   - type: GunRequiresWield #remove when inaccuracy on spreads is fixed
   - type: Gun
-    fireRate: 2
+    fireRate: 4 # Goobstation - A DB should be faster than a pump shotgun, at least when there's no cycling. also prevents sawn off powergaming.
   - type: BallisticAmmoProvider
     capacity: 2
   - type: Construction
@@ -173,7 +173,7 @@
     sprite: Objects/Weapons/Guns/Shotguns/pump.rsi
   - type: GunRequiresWield #remove when inaccuracy on spreads is fixed
   - type: BallisticAmmoProvider
-    capacity: 4
+    capacity: 6 # Goobstation - Makes the Kammerer actually follow "kill per mag" standards and makes the enforcer only 1 shell better
   - type: Tag
     tags:
     - WeaponShotgunKammerer
