@@ -1,17 +1,17 @@
 - type: entity
   id: BulletLightRifle
-  name: bullet (.20 rifle)
+  name: bullet (.30 rifle)
   parent: BaseBullet
   noSpawn: true
   components:
   - type: Projectile
     damage:
       types:
-        Piercing: 19
+        Piercing: 22
 
 - type: entity
   id: BulletLightRiflePractice
-  name: bullet (.20 rifle practice)
+  name: bullet (.30 rifle practice)
   parent: BaseBulletPractice
   noSpawn: true
   components:
@@ -23,7 +23,7 @@
 - type: entity
   id: BulletLightRifleIncendiary
   parent: BaseBulletIncendiary
-  name: bullet (.20 rifle incendiary)
+  name: bullet (.30 rifle incendiary)
   noSpawn: true
   components:
   - type: Projectile
@@ -35,7 +35,7 @@
 - type: entity
   id: BulletLightRifleUranium
   parent: BaseBulletUranium
-  name: bullet (.20 rifle uranium)
+  name: bullet (.30 rifle uranium)
   noSpawn: true
   components:
   - type: Projectile
