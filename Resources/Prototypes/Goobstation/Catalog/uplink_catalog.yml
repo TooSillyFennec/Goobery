@@ -43,15 +43,3 @@
     Telecrystal: 85
   catergories:
   - UplinkWeaponry
-
-- type: listing
-  id: UplinkCsorBundle
-  name: uplink-csor-bundle-name
-  descrsiption: uplink-csor-bundle-desc
-  icon: { sprite: /Textures/Objects/Weapons/Guns/SMGs/vector.rsi, state: icon }
-  productEntity: ClothingBackpackDuffelSyndicateFilledCsor
-  cost:
-    # Goobstation - Telecrystal rework
-    Telecrystal: 100
-  catergories:
-  - UplinkWeaponry
