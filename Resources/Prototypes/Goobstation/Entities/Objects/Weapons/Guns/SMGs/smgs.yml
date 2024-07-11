@@ -1,0 +1,51 @@
+- type: entity
+  name: C.S.O.R
+  parent: BaseWeaponSubMachineGun # Based off the vector and the ammo's .45 - ic however it's a rifle.
+  id: WeaponSubMachineGunCsor
+  description: A slow yet extremely lethal percision rifle. Affectionately nicknamed “See-saw” by operatives, both as a pronounciation and a lethal joke. Uses .45 magnum ammo.
+  components:
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/SMGs/vector.rsi
+    layers:
+      - state: base
+        map: ["enum.GunVisualLayers.Base"]
+      - state: mag-0
+        map: ["enum.GunVisualLayers.Mag"]
+  - type: Clothing
+    sprite: Objects/Weapons/Guns/SMGs/vector.rsi
+  - type: Gun
+    minAngle: 1 # Parent has a very high angle. To make this closer to a lecter or similar the values have to be set low. still less accurate by the ammo type however
+    maxAngle: 2
+    fireRate: 3
+    angleIncrease: 0.2
+    angleDecay: 1
+    selectedMode: FullAuto
+    soundGunshot:
+      path: /Audio/Weapons/Guns/Gunshots/atreides.ogg
+      params:
+        volume: -5
+    availableModes:
+    - FullAuto
+  - type: ItemSlots
+    slots:
+      gun_magazine:
+        name: Magazine
+        startingItem: MagazineMagnumSubMachineGun
+        insertSound: /Audio/Weapons/Guns/MagIn/smg_magin.ogg
+        ejectSound: /Audio/Weapons/Guns/MagOut/smg_magout.ogg
+        priority: 2
+        whitelist:
+          tags:
+            - MagazineMagnumSubMachineGun
+      gun_chamber:
+        name: Chamber
+        startingItem: CartridgeMagnum
+        priority: 1
+        whitelist:
+          tags:
+            - CartridgeMagnum
+  - type: MagazineVisuals
+    magState: mag
+    steps: 1
+    zeroVisible: true
+  - type: Appearance
