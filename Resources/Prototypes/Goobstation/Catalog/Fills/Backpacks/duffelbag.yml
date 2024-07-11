@@ -13,8 +13,8 @@
 - type: entity
   parent: ClothingBackpackDuffelSyndicateBundle
   id: ClothingBackpackDuffelSyndicateFilledCsor
-  name: C-20r bundle
-  description: "Old faithful: The classic C-20r Submachine Gun, bundled with three magazines." 
+  name: C.S.O.R bundle
+  description: "The extremely lethal .45 magnum percision rifle, the C.S.O.R bundled with three magazines! Buy from Cybersun today!" 
   components:
   - type: StorageFill
     contents:
