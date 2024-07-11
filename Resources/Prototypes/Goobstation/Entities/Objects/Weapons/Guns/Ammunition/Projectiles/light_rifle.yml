@@ -1,0 +1,11 @@
+- type: entity
+  id: BulletLightRifleAP
+  name: bullet (.30 rifle AP)
+  parent: BaseBullet
+  noSpawn: true
+  components:
+  - type: Projectile
+    damage:
+      types:
+        Piercing: 17
+    ignoreResistances: True
