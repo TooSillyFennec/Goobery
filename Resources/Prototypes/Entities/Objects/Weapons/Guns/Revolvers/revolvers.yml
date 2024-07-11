@@ -64,7 +64,7 @@
     - state: mag-unshaded-3
       map: ["enum.GunVisualLayers.MagUnshaded"]
       shader: unshaded
-   - type: Gun
+  - type: Gun
     fireRate: 2.5 # Goobstation
   - type: RevolverAmmoProvider
     capacity: 5
