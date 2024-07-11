@@ -47,7 +47,7 @@
 - type: listing
   id: UplinkPistolMagazineSubMachineGunAP
   name: uplink-pistol-magazine-ap-c20r-name
-  description: uplink-pistol-magazine-ap-c20r-de
+  description: uplink-pistol-magazine-ap-c20r-desc
   productEntity: PistolMagazineSubMachineGunAP
   cost:
     # Goobstation - Telecrystal rework
