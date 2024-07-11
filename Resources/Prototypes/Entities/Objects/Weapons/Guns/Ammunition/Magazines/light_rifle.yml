@@ -14,7 +14,7 @@
       tags:
         - CartridgeLightRifle
     proto: CartridgeLightRifle
-    capacity: 25 # Goobstation
+    capacity: 30
   - type: Item
     size: Small
   - type: ContainerContainer
@@ -36,7 +36,7 @@
 # Magazines
 - type: entity
   id: MagazineLightRifleBox
-  name: "L6 SAW magazine box (.20 rifle)" # Goobstation
+  name: "L6 SAW magazine box (.30 rifle)"
   parent: BaseMagazineLightRifle
   components:
   - type: Tag
@@ -45,8 +45,8 @@
   - type: BallisticAmmoProvider
     whitelist:
       tags:
-        - CartridgeRifle
-    proto: CartridgeRifle # Goobstation
+        - CartridgeLightRifle
+    proto: CartridgeLightRifle
     capacity: 100
   - type: Item
   - type: Sprite
