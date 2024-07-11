@@ -33,44 +33,10 @@
   - UplinkWeaponry
 
 - type: listing
-  id: UplinkAKBundle
-  name: uplink-ak-bundle-name
-  descrsiption: uplink-ak-bundle-desc
-  icon: { sprite: /Textures/Objects/Weapons/Guns/Rifles/ak.rsi, state: icon }
-  productEntity: ClothingBackpackDuffelSyndicateFilledAKMS
-  cost:
-    # Goobstation - Telecrystal rework
-    Telecrystal: 85
-  catergories:
-  - UplinkWeaponry
-
-- type: listing
   id: UplinkPistolMagazineSubMachineGunAP
   name: uplink-pistol-magazine-ap-c20r-name
   description: uplink-pistol-magazine-ap-c20r-desc
   productEntity: PistolMagazineSubMachineGunAP
-  cost:
-    # Goobstation - Telecrystal rework
-    Telecrystal: 20
-  categories:
-  - UplinkAmmo
-  
-- type: listing
-  id: UplinkMagazineLightRifle
-  name: uplink-magazine-akms-name
-  description: uplink-magazine-akms-desc
-  productEntity: MagazineLightRifle
-  cost:
-    # Goobstation - Telecrystal rework
-    Telecrystal: 15
-  categories:
-  - UplinkAmmo
-
-- type: listing
-  id: UplinkMagazineLightRifleAP
-  name: uplink-magazine-ap-akms-name
-  description: uplink-magazine-ap-akms-desc
-  productEntity: MagazineLightRifleAP
   cost:
     # Goobstation - Telecrystal rework
     Telecrystal: 20
@@ -93,7 +59,7 @@
         tags:
           - NukeOpsUplink
           
- - type: listing
+- type: listing
   id: UplinkMagazineShotgunAP
   name: uplink-magazine-ap-bulldog-name
   description: uplink-magazine-ap-bulldog-desc
