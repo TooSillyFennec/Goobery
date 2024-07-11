@@ -38,8 +38,8 @@ uplink-magazine-incend-bulldog-desc = Shotgun drum with 8 .50 incendiary Shells.
 uplink-akms-bundle-name = AKMS Bundle
 uplink-akms-bundle-desc = The AKMS, a refurbished yet highly effective variant of the classic AK, bundled with three magazines.
 
-uplink-akms-bundle-name = C.S.O.R Bundle
-uplink-akms-bundle-desc = The extremely lethal .45 magnum percision rifle, the C.S.O.R bundled with three magazines! Buy from Cybersun today!
+uplink-csor-bundle-name = C.S.O.R Bundle
+uplink-csor-bundle-desc = The extremely lethal .45 magnum percision rifle, the C.S.O.R bundled with three magazines! Buy from Cybersun today!
 
 # Misc
 
