@@ -1,0 +1,27 @@
+- type: entity
+  name: contractor baton
+  parent: BaseItem
+  id: ContractorBaton
+  description: An advanced baton commonly used by Syndicate kidnappers and contractors.
+  components:
+  - type: Sprite
+    sprite: Objects/Goobstation/Weapons/Melee/contractorbaton.rsi
+  - type: MeleeWeapon
+    wideAnimationRotation: -135
+    attackRate: 0.6 # Slow hits but 2 to stamcrit: faster than a sec baton if all hits land
+    damage:
+      types:
+        Blunt: 7.5
+        Shock: 7.5
+    angle: 60
+    animation: WeaponArcThrust
+  - type: StaminaDamageOnHit
+    damage: 70
+    sound: /Audio/Weapons/egloves.ogg
+  - type: StaminaDamageOnCollide
+    damage: 70
+    sound: /Audio/Weapons/egloves.ogg
+  - type: Item
+    heldPrefix: off
+    size: Normal
+  - type: DisarmMalus
