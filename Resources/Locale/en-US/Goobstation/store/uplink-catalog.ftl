@@ -1,3 +1,8 @@
+# Weaponry
+
+uplink-contractor-baton-name = Contractor Baton
+uplink-contractor-baton-desc = An advanced baton commonly used by Syndicate kidnappers and contractors.
+
 # Ammo
 
 uplink-pistol-magazine-ap-c20r-name = SMG magazine (.35 auto AP)
