@@ -33,9 +33,9 @@
   - UplinkWeaponry
 
 - type: listing
-  id: UplinkAKMSBundle
-  name: uplink-akms-bundle-name
-  descrsiption: uplink-akms-bundle-desc
+  id: UplinkAKBundle
+  name: uplink-ak-bundle-name
+  descrsiption: uplink-ak-bundle-desc
   icon: { sprite: /Textures/Objects/Weapons/Guns/Rifles/ak.rsi, state: icon }
   productEntity: ClothingBackpackDuffelSyndicateFilledAKMS
   cost:
