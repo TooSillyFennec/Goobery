@@ -43,3 +43,70 @@
     Telecrystal: 85
   catergories:
   - UplinkWeaponry
+
+- type: listing
+  id: UplinkPistolMagazineSubMachineGunAP
+  name: uplink-pistol-magazine-ap-c20r-name
+  description: uplink-pistol-magazine-ap-c20r-de
+  productEntity: PistolMagazineSubMachineGunAP
+  cost:
+    # Goobstation - Telecrystal rework
+    Telecrystal: 20
+  categories:
+  - UplinkAmmo
+  
+- type: listing
+  id: UplinkMagazineLightRifle
+  name: uplink-magazine-akms-name
+  description: uplink-magazine-akms-desc
+  productEntity: MagazineLightRifle
+  cost:
+    # Goobstation - Telecrystal rework
+    Telecrystal: 15
+  categories:
+  - UplinkAmmo
+
+- type: listing
+  id: UplinkMagazineLightRifleAP
+  name: uplink-magazine-ap-akms-name
+  description: uplink-magazine-ap-akms-desc
+  productEntity: MagazineLightRifleAP
+  cost:
+    # Goobstation - Telecrystal rework
+    Telecrystal: 20
+  categories:
+  - UplinkAmmo
+  
+- type: listing
+  id: UplinkMagazineShotgun
+  name: uplink-magazine-bulldog-name
+  description: uplink-magazine-bulldog-desc
+  productEntity: MagazineShotgun
+  cost:
+    # Goobstation - Telecrystal rework
+    Telecrystal: 18
+  categories:
+  - UplinkAmmo
+  conditions:
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - NukeOpsUplink
+          
+ - type: listing
+  id: UplinkMagazineShotgunAP
+  name: uplink-magazine-ap-bulldog-name
+  description: uplink-magazine-ap-bulldog-desc
+  productEntity: MagazineShotgunAP
+  cost:
+    # Goobstation - Telecrystal rework
+    Telecrystal: 24
+  categories:
+  - UplinkAmmo
+  conditions:
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - NukeOpsUplink
+
+
