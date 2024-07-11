@@ -445,7 +445,7 @@
   productEntity: MagazinePistolCaselessRifle
   cost:
     # Goobstation - Telecrystal rework
-    Telecrystal: 8 # People actually spam these more than other ammo types, makes sense to be at improved level price.
+    Telecrystal: 8 # People actually spam these more than other ammo types
   categories:
   - UplinkAmmo
 
