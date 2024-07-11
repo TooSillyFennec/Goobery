@@ -23,7 +23,7 @@
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/atreides.ogg
       params:
-        volume: -5
+        volume: -8
     availableModes:
     - FullAuto
   - type: ItemSlots
