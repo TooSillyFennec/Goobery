@@ -173,7 +173,7 @@
 - type: listing
   id: UplinkMagazineLightRifle
   name: uplink-magazine-akms-name
-  description: uplink-magazine-akms-name-desc
+  description: uplink-magazine-akms-desc
   productEntity: MagazineLightRifle
   cost:
     # Goobstation - Telecrystal rework
@@ -185,7 +185,7 @@
 - type: listing
   id: UplinkMagazineLightRifleAP
   name: uplink-magazine-ap-akms-name
-  description: uplink-magazine-ap-akms-name-desc
+  description: uplink-magazine-ap-akms-desc
   productEntity: MagazineLightRifleAP
   cost:
     # Goobstation - Telecrystal rework
@@ -197,7 +197,7 @@
 - type: listing
   id: UplinkMagazineLightRifleIncendiary
   name: uplink-magazine-incend-akms-name
-  description: uplink-magazine-incend-akms-name-desc
+  description: uplink-magazine-incend-akms-desc
   productEntity: MagazineLightRifleIncendiary
   cost:
     # Goobstation - Telecrystal rework
