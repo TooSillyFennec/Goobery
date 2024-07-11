@@ -1,0 +1,15 @@
+- type: entity
+  id: ShellShotgunAP
+  name: shell (.50 Flechette)
+  parent: BaseShellShotgun
+  components:
+  - type: Sprite
+    layers:
+      - state: blank
+        map: [ "enum.AmmoVisualLayers.Base" ]
+  - type: CartridgeAmmo
+    proto: PelletShotgunAP
+    count: 6
+    spread: 12
+  - type: SpentAmmoVisuals
+    state: "blank"
