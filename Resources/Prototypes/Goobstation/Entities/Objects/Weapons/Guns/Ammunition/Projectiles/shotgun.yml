@@ -1,0 +1,14 @@
+- type: entity
+  id: PelletShotgunAP
+  name: pellet (.50 Flechette)
+  noSpawn: true
+  parent: BaseBullet
+  components:
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/Projectiles/projectiles2.rsi
+    state: buckshot
+  - type: Projectile
+    damage:
+      types:
+        Piercing: 8
+    ignoreResistances: true
