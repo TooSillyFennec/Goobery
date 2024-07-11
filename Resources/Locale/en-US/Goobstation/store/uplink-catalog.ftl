@@ -18,7 +18,7 @@ uplink-magazine-akms-desc = Rifle magazine with 25 catridges. Compatible with th
 uplink-magazine-ap-akms-name = AKMS magazine (.30 rifle AP)
 uplink-magazine-ap-akms-desc = AKMS magazine with 25 AP catridges. Compatible with the AKMS.
 
-uplink-magazine-incend-akms-name = AKMS magazine (.30 rifle)
+uplink-magazine-incend-akms-name = AKMS magazine (.30 rifle incendiary)
 uplink-magazine-incend-akms-desc = AKMS magazine with incendiary 25 catridges. Compatible with the AKMS.
 
 uplink-magazine-csor-name = C.S.O.R magazine (.45 magnum)
