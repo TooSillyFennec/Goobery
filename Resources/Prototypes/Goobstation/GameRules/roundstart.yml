@@ -166,7 +166,6 @@
         components:
         - AntagImmune
         - Changeling
-        - Traitor # Prevents double traitor
       lateJoinAdditional: true # Pretty strange, but having 3 Late join additionals doesn't really break anything
       mindComponents:
       - type: TraitorRole
@@ -190,7 +189,7 @@
         components:
         - AntagImmune
         - Changeling
-        - Traitor
+        - Traitor # Prevents double traitor
       lateJoinAdditional: true
       mindComponents:
       - type: TraitorRole
@@ -211,6 +210,56 @@
       fallbackRoles: [ Traitor ] 
       max: 3
       playerRatio: 30
+      blacklist:
+        components:
+        - AntagImmune
+        - Changeling
+        - Traitor
+      lateJoinAdditional: true
+      mindComponents:
+      - type: TraitorRole
+        prototype: Traitor
+
+- type: entity
+  parent: BaseTraitorRule
+  id: AutoTraitorWave4 # For Autotraitor Gamemode - At around an hour.
+  components:
+  - type: GameRule
+    minPlayers: 30
+    delay:
+      min: 3000
+      max: 3600
+  - type: AntagSelection
+    definitions:
+    - prefRoles: [ TraitorSleeper ] 
+      fallbackRoles: [ Traitor ] 
+      max: 3
+      playerRatio: 35
+      blacklist:
+        components:
+        - AntagImmune
+        - Changeling
+        - Traitor
+      lateJoinAdditional: true
+      mindComponents:
+      - type: TraitorRole
+        prototype: Traitor
+        
+- type: entity
+  parent: BaseTraitorRule
+  id: AutoTraitorWave5 # For Autotraitor Gamemode - The last "Fuck you, NT!" before shuttle auto call
+  components:
+  - type: GameRule
+    minPlayers: 30
+    delay:
+      min: 4800
+      max: 5400
+  - type: AntagSelection
+    definitions:
+    - prefRoles: [ TraitorSleeper ] 
+      fallbackRoles: [ Traitor ] 
+      max: 3
+      playerRatio: 40
       blacklist:
         components:
         - AntagImmune
