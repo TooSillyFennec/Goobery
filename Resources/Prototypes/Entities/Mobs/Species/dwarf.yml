@@ -60,6 +60,8 @@
   - type: LanguageKnowledge # Einstein Engines - Sol Common doesn't exist on goob for a reason.
     speaks:
     - GalacticCommon
+    understands:
+    - GalacticCommon
 
 - type: entity
   parent: BaseSpeciesDummy
