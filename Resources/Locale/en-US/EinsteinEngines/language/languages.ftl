@@ -23,7 +23,7 @@ language-Canilunzt-name = Canilunzt
 language-Canilunzt-description = The guttural language spoken and utilized by the inhabitants of the Vazzend system, composed of growls, barks, yaps, and heavy utilization of ears and tail movements. Vulpkanin speak this language with ease.
 
 language-Moffic-name = Moffic
-language-Moffic-description = The language of the mothpeople borders on complete unintelligibility.
+language-Moffic-description = The language of the mothpeople borders on complete unintelligibility. Also used by Arachnids.
 
 language-RobotTalk-name = RobotTalk
 language-RobotTalk-description = A language consisting of harsh binary chirps, whistles, hisses, and whines. 
