@@ -127,6 +127,9 @@
       sprite: "Effects/creampie.rsi"
       state: "creampie_vox" # Not default
       visible: false
+  - type: LanguageKnowledge # Goobstation - Sorry... Not Sorry >:3 - Not in einstein. 
+    speaks:
+    - GalacticCommon
 
 - type: entity
   parent: BaseSpeciesDummy
