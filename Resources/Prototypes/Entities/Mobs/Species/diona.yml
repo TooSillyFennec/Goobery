@@ -106,6 +106,9 @@
     speaks:
     - GalacticCommon
     - RootSpeak
+    understands:
+    - GalacticCommon
+    - RootSpeak
 
 - type: entity
   parent: BaseSpeciesDummy
