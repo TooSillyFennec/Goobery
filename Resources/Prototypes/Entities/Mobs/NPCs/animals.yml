@@ -62,6 +62,11 @@
   - type: Tag
     tags:
     - VimPilot
+  - type: LanguageKnowledge # Einstein Engines
+    speaks:
+    - Mouse
+    understands:
+    - Mouse
 
 - type: entity
   name: bee
@@ -232,6 +237,11 @@
   - type: NpcFactionMember
     factions:
     - Passive
+  - type: LanguageKnowledge # Einstein Engines
+    speaks:
+    - Chicken
+    understands:
+    - Chicken
 
 - type: entity
   parent: MobChicken
@@ -536,6 +546,11 @@
   - type: FireVisuals
     sprite: Mobs/Effects/onfire.rsi
     normalState: Mouse_burning
+  - type: LanguageKnowledge # Einstein Engines
+    speaks:
+    - Moffic
+    understands:
+    - Moffic
 
 
 # Note that the mallard duck is actually a male drake mallard, with the brown duck being the female variant of the same species, however ss14 lacks sex specific textures
@@ -610,6 +625,11 @@
   - type: NpcFactionMember
     factions:
     - Passive
+  - type: LanguageKnowledge # Einstein Engines
+    speaks:
+    - Duck
+    understands:
+    - Duck
 
 - type: entity
   name: white duck #Quack
@@ -854,6 +874,11 @@
       task: RuminantCompound
   - type: Body
     prototype: AnimalHemocyanin
+  - type: LanguageKnowledge # Einstein Engines
+    speaks:
+    - Crab
+    understands:
+    - Crab
 
 - type: entity
   name: goat
@@ -1133,6 +1158,11 @@
   - type: HTN
     rootTask:
       task: SimpleHostileCompound
+  - type: LanguageKnowledge # Einstein Engines
+    speaks:
+    - Kangaroo
+    understands:
+    - Kangaroo
 
 - type: entity
   name: boxing kangaroo
@@ -1250,6 +1280,13 @@
     tags:
     - VimPilot
     - DoorBumpOpener
+  - type: LanguageKnowledge # Einstein Engines
+    speaks:
+    - Monkey
+    understands:
+    - Monkey
+    - GalacticCommon
+    - Kobold
 
 - type: entity
   name: monkey
@@ -1439,6 +1476,13 @@
     name: ghost-role-information-kobold-name
     description: ghost-role-information-kobold-description
     rules: ghost-role-information-nonantagonist-rules
+  - type: LanguageKnowledge # Einstein Engines
+    speaks:
+    - Kobold
+    understands:
+    - Monkey
+    - GalacticCommon
+    - Kobold
 
 - type: entity
   name: kobold
@@ -1655,6 +1699,11 @@
   - type: FireVisuals
     sprite: Mobs/Effects/onfire.rsi
     normalState: Mouse_burning
+  - type: LanguageKnowledge # Einstein Engines
+    speaks:
+    - Mouse
+    understands:
+    - Mouse
 
 - type: entity
   parent: MobMouse
@@ -1985,6 +2034,11 @@
       path: /Audio/Animals/parrot_raught.ogg
   - type: Bloodstream
     bloodMaxVolume: 50
+  - type: LanguageKnowledge # Einstein Engines
+    speaks:
+    - GalacticCommon
+    understands:
+    - GalacticCommon
 
 - type: entity
   name: penguin
@@ -2278,6 +2332,11 @@
       groups:
         Brute: -0.07
         Burn: -0.07
+  - type: LanguageKnowledge # Einstein Engines - Pretty funny honestly, but works.
+    speaks:
+    - Xeno
+    understands:
+    - Xeno
 
 - type: entity
   name: tarantula
@@ -2555,6 +2614,11 @@
   - type: Tag
     tags:
     - VimPilot
+  - type: LanguageKnowledge # Einstein Engines
+    speaks:
+    - Fox
+    understands:
+    - Fox
 
 - type: entity
   name: corgi
@@ -2613,6 +2677,11 @@
   - type: Tag
     tags:
     - VimPilot
+  - type: LanguageKnowledge # Einstein Engines
+    speaks:
+    - Dog
+    understands:
+    - Dog
 
 - type: entity
   name: corrupted corgi
@@ -2783,6 +2852,11 @@
         Base: cat2
       Dead:
         Base: cat2_dead
+  - type: LanguageKnowledge # Einstein Engines
+    speaks:
+    - Cat
+    understands:
+    - Cat
 
 - type: entity
   name: syndicat
@@ -2828,6 +2902,12 @@
         Slash: 6
         Piercing: 6
         Structural: 15
+  - type: LanguageKnowledge # Einstein Engines
+    speaks:
+    - Cat
+    understands:
+    - Cat
+    - GalacticCommon
 
 - type: entity
   name: space cat
@@ -3161,6 +3241,12 @@
   - type: FireVisuals
     sprite: Mobs/Effects/onfire.rsi
     normalState: Mouse_burning
+  - type: LanguageKnowledge # Einstein Engines
+    speaks:
+    - Mouse
+    understands:
+    - Mouse
+    - GalacticCommon # Pretty odd, yeah, but allows hamlet to hear the crew.
 
 - type: entity
   name: pig
@@ -3227,6 +3313,11 @@
   - type: NpcFactionMember
     factions:
     - Passive
+  - type: LanguageKnowledge # Einstein Engines
+    speaks:
+    - Pig
+    understands:
+    - Pig
 
 - type: entity
   name: diona nymph
@@ -3301,6 +3392,12 @@
     reformTime: 10
     popupText: diona-reform-attempt
     reformPrototype: MobDionaReformed
+  - type: LanguageKnowledge # Einstein Engines
+    speaks:
+    - RootSpeak
+    understands:
+    - RootSpeak
+    - GalacticCommon
 
 - type: entity
   parent: MobDionaNymph
