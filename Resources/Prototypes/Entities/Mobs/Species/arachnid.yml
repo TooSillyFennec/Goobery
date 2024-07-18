@@ -122,7 +122,11 @@
       - map: [ "clownedon" ] # Dynamically generated
         sprite: "Effects/creampie.rsi"
         state: "creampie_arachnid"
-        visible: false
+        visible: false  
+  - type: LanguageKnowledge # Goobstation
+    speaks:
+    - GalacticCommon
+    - Moffic # No Arachnid language in any shape, 13 or 14. sucks, but we have to deal with it.
 
 - type: entity
   parent: BaseSpeciesDummy
