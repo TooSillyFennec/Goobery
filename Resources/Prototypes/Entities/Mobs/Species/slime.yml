@@ -110,6 +110,10 @@
       types:
         Asphyxiation: -1.0
     maxSaturation: 15
+  - type: LanguageKnowledge # Einstein Engines
+    speaks:
+    - GalacticCommon
+    - Bubblish
 
 - type: entity
   parent: MobHumanDummy
