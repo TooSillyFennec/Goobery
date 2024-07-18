@@ -103,6 +103,13 @@
     price: 100
   - type: Appearance
   - type: WiresVisuals
+  - type: LanguageKnowledge # Einstein Engines
+    speaks:
+    - GalacticCommon
+    - RobotTalk
+    understands:
+    - GalacticCommon
+    - RobotTalk
 
 - type: entity
   parent: VendingMachine
