@@ -128,6 +128,9 @@
     templateId: digitigrade
   - type: HarpyVisuals
   - type: UltraVision
+  - type: LanguageKnowledge # Einstein Engines - Considered adding all languages to fit "all sounds" but that's what the role librarian should have. No mechanic for that exists yet.
+    speaks:
+    - GalacticCommon
 
 - type: entity
   save: false
