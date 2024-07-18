@@ -64,6 +64,10 @@
       Unsexed: MaleFelinid
   - type: Felinid
   - type: NoShoesSilentFootsteps
+  - type: LanguageKnowledge # Einstein Engines - Wanna know a fun fact? Felinid didn't even GET their language on einstein. Why? Who knows, the girl that ported languages doesn't even know.
+    speaks:
+    - GalacticCommon
+    - Nekomimetic
 
 - type: entity
   save: false
