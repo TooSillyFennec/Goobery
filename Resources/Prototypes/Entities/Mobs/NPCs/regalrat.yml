@@ -120,6 +120,14 @@
   - type: Grammar
     attributes:
       gender: male
+  - type: LanguageSpeaker
+  - type: LanguageKnowledge
+    speaks:
+    - GalacticCommon
+    - Mouse
+    understands:
+    - GalacticCommon
+    - Mouse
 
 - type: entity
   id: MobRatKingBuff
@@ -293,6 +301,14 @@
   - type: Food
   - type: Item
     size: Tiny # Delta V - Make them edible and pickable.
+  - type: LanguageSpeaker
+  - type: LanguageKnowledge
+    speaks:
+    - GalacticCommon
+    - Mouse
+    understands:
+    - GalacticCommon
+    - Mouse
 
 - type: weightedRandomEntity
   id: RatKingLoot
