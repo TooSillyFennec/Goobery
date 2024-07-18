@@ -97,6 +97,10 @@
       Female: FemaleVulpkanin
       Unsexed: MaleVulpkanin
   - type: DogVision
+  - type: LanguageKnowledge # Einstein Engines
+    speaks:
+    - GalacticCommon
+    - Canilunzt
 
 - type: entity
   save: false
