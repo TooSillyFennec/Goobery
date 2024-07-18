@@ -24,6 +24,8 @@
   - type: LanguageKnowledge # Einstein Engines - Sol Common's bad, and the average LRP player will abuse human/similar only.
     speaks:
     - GalacticCommon
+    understands:
+    - GalacticCommon  
 
 - type: entity
   parent: BaseSpeciesDummy
