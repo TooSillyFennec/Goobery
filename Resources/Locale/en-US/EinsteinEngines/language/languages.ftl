@@ -16,9 +16,6 @@ language-Nekomimetic-description = To the casual observer, this language is an i
 language-Draconic-name = Draconic
 language-Draconic-description = The common language of lizard-people, composed of sibilant hisses and rattles.
 
-language-SolCommon-name = Sol common
-language-SolCommon-description = The language common to species from the Sol System.
-
 language-Canilunzt-name = Canilunzt
 language-Canilunzt-description = The guttural language spoken and utilized by the inhabitants of the Vazzend system, composed of growls, barks, yaps, and heavy utilization of ears and tail movements. Vulpkanin speak this language with ease.
 
