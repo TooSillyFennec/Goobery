@@ -102,6 +102,10 @@
     actionPrototype: DionaGibAction
     allowedStates:
     - Dead
+  - type: LanguageKnowledge # Einstein Engines
+    speaks:
+    - GalacticCommon
+    - RootSpeak
 
 - type: entity
   parent: BaseSpeciesDummy
