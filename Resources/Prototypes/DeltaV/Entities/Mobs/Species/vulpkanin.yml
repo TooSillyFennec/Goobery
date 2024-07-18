@@ -101,6 +101,9 @@
     speaks:
     - GalacticCommon
     - Canilunzt
+    understands:
+    - GalacticCommon
+    - Canilunzt
 
 - type: entity
   save: false
