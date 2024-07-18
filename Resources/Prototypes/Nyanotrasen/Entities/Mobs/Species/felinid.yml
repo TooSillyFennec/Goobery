@@ -68,6 +68,9 @@
     speaks:
     - GalacticCommon
     - Nekomimetic
+    understands:
+    - GalacticCommon
+    - Nekomimetic
 
 - type: entity
   save: false
