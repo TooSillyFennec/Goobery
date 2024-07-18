@@ -1,13 +1,13 @@
 using Content.Server.Administration.Logs;
 using Content.Server.Chat.Systems;
-using Content.Server.EinsteinEngines.Language;
+using Content.Server.Language;
 using Content.Server.Power.Components;
 using Content.Server.Radio.Components;
 using Content.Server.Speech;
 using Content.Server.VoiceMask;
 using Content.Shared.Chat;
 using Content.Shared.Database;
-using Content.Shared.EinsteinEngines.Language;
+using Content.Shared.Language;
 using Content.Shared.Radio;
 using Content.Shared.Radio.Components;
 using Content.Shared.Speech;
