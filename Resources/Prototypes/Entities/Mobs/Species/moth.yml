@@ -121,6 +121,9 @@
     speaks:
     - GalacticCommon
     - Moffic
+    understands:
+    - GalacticCommon
+    - Moffic
 
 
 - type: entity
