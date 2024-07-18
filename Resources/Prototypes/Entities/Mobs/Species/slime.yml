@@ -114,6 +114,9 @@
     speaks:
     - GalacticCommon
     - Bubblish
+    understands:
+    - GalacticCommon
+    - Bubblish
 
 - type: entity
   parent: MobHumanDummy
