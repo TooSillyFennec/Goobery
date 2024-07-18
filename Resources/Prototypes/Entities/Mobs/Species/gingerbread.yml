@@ -44,6 +44,8 @@
   - type: LanguageKnowledge # Goobstation
     speaks:
     - GalacticCommon
+    understands:
+    - GalacticCommon
 
 - type: entity
   parent: BaseSpeciesDummy
