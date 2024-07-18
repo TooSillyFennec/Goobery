@@ -117,6 +117,11 @@
         sprite: "Effects/creampie.rsi"
         state: "creampie_moth"
         visible: false
+  - type: LanguageKnowledge # Einstein Engines
+    speaks:
+    - GalacticCommon
+    - Moffic
+
 
 - type: entity
   parent: BaseSpeciesDummy
