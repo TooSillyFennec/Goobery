@@ -130,6 +130,8 @@
   - type: LanguageKnowledge # Goobstation - Sorry... Not Sorry >:3 - Not in einstein. 
     speaks:
     - GalacticCommon
+    understands:
+    - GalacticCommon
 
 - type: entity
   parent: BaseSpeciesDummy
