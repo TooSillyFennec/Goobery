@@ -109,7 +109,7 @@
   - type: StepTriggerImmune
   - type: NoSlip
   - type: Insulated
-  - type: LanguageKnowledge
+  - type: LanguageKnowledge # Einstein Engines
     speaks:
     - GalacticCommon
     - RobotTalk
