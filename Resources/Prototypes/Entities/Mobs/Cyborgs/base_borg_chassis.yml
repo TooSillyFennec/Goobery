@@ -222,6 +222,10 @@
     guides:
       - Cyborgs
   - type: StepTriggerImmune
+  - type: LanguageKnowledge # Einstein Engines
+    speaks:
+    - GalacticCommon
+    - RobotTalk
 
 - type: entity
   abstract: true
