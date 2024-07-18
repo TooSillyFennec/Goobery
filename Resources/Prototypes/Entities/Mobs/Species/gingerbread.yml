@@ -41,6 +41,9 @@
           - MobMask
         layer:
           - MobLayer
+  - type: LanguageKnowledge # Goobstation
+    speaks:
+    - GalacticCommon
 
 - type: entity
   parent: BaseSpeciesDummy
