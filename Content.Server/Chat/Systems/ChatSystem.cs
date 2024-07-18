@@ -6,7 +6,7 @@ using Content.Server.Administration.Managers;
 using Content.Server.Chat.Managers;
 using Content.Server.Examine;
 using Content.Server.GameTicking;
-using Content.Server.Language;
+using Content.Server.EinsteinEngines.Language;
 using Content.Server.Speech;
 using Content.Server.Players.RateLimiting;
 using Content.Server.Speech.Components;
