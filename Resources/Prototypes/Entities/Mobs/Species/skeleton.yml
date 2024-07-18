@@ -106,6 +106,8 @@
   - type: LanguageKnowledge # Goobstation - Skeletal Language exists in 13, but very rare for it to be used here + einstein doesn't even have skeletons.
     speaks:
     - GalacticCommon
+    understands:
+    - GalacticCommon
 
 - type: entity
   parent: BaseSpeciesDummy
