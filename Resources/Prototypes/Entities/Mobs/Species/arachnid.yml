@@ -127,6 +127,9 @@
     speaks:
     - GalacticCommon
     - Moffic # No Arachnid language in any shape, 13 or 14. sucks, but we have to deal with it.
+    understands:
+    - GalacticCommon
+    - Moffic # No Arachnid language in any shape, 13 or 14. sucks, but we have to deal with it.
 
 - type: entity
   parent: BaseSpeciesDummy
