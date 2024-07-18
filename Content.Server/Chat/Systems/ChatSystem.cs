@@ -843,15 +843,16 @@ public sealed partial class ChatSystem : SharedChatSystem
     /// <summary>
     ///     Wraps a message sent by the specified entity into an "x says y" string.
     /// </summary>
-    public string WrapPublicMessage(EntityUid source, string name, string message)
+    public string WrapPublicMessage(EntityUid source, string name, string message, LanguagePrototype? languageOverride = null)
     {
+        var language = languageOverride ?? _language.GetLanguage(source);
         var speech = GetSpeechVerb(source, message);
         var verbName = Loc.GetString(_random.Pick(speech.SpeechVerbStrings));
         return Loc.GetString(speech.Bold ? "chat-manager-entity-say-bold-wrap-message" : "chat-manager-entity-say-wrap-message",
             ("entityName", name),
-            ("verb", verbName),
-            ("fontType", speech.FontId),
-            ("fontSize", speech.FontSize),
+            ("verb", Loc.GetString(_random.Pick(speech.SpeechVerbStrings))),
+            ("fontType", language.FontId ?? speech.FontId),
+            ("fontSize", language.FontSize ?? speech.FontSize),
             ("message", message));
     }
 
