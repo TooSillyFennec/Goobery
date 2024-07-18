@@ -21,6 +21,9 @@
     hideLayersOnEquip:
     - Hair
     - Snout
+  - type: LanguageKnowledge # Einstein Engines - Sol Common's bad, and the average LRP player will abuse human/similar only.
+    speaks:
+    - GalacticCommon
 
 - type: entity
   parent: BaseSpeciesDummy
