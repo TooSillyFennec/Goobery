@@ -222,10 +222,25 @@
     guides:
       - Cyborgs
   - type: StepTriggerImmune
-  - type: LanguageKnowledge # Einstein Engines
+  - type: LanguageKnowledge # Einstein Engines - Borgs are supposed to have ALL crew languages.
     speaks:
     - GalacticCommon
     - RobotTalk
+    - Canilunzt
+    - RootSpeak
+    - Moffic
+    - Draconic
+    - Bubblish
+    - Nekomimetic
+    understands:
+    - GalacticCommon
+    - RobotTalk
+    - Canilunzt
+    - RootSpeak
+    - Moffic
+    - Draconic
+    - Bubblish
+    - Nekomimetic
 
 - type: entity
   abstract: true
