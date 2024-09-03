@@ -1,0 +1,81 @@
+- type: entity
+  name : shotgun laser bolt
+  id: BulletEnergyShotgun
+  parent: BulletEnergy
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Projectile
+    damage:
+      types:
+        Heat: 13
+        
+- type: entity
+  name : smg laser bolt
+  id: BulletEnergySMG
+  parent: BulletEnergy
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/Projectiles/projectiles_tg.rsi
+    layers:
+    - state: omnilaser_unshaded
+      shader: unshaded
+      color: purple
+  - type: Projectile
+    damage:
+      types:
+        Heat: 10
+        
+- type: entity
+  name : hellfire laser bolt
+  id: BulletEnergyHellfire
+  parent: BulletEnergy
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/Projectiles/projectiles_tg.rsi
+    layers:
+    - state: omnilaser_unshaded
+      shader: unshaded
+      color: orange
+  - type: Projectile
+    damage:
+      types:
+        Heat: 20
+  - type: IgnitionSource
+    ignited: true
+
+- type: entity
+  name : x-ray laser bolt
+  id: BulletEnergyXRay
+  parent: BulletEnergy
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/Projectiles/projectiles_tg.rsi
+    layers:
+    - state: omnilaser_unshaded
+      shader: unshaded
+      color: green
+  - type: Projectile
+    damage:
+      types:
+        Heat: 10
+        Radiation: 10
+        
+- type: entity
+  name : heavy laser bolt
+  id: BulletEnergyHeavy
+  parent: BulletEnergy
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/Projectiles/projectiles_tg.rsi
+    layers:
+    - state: omnilaser_unshaded
+      shader: unshaded
+      color: purple
+  - type: Projectile
+    damage:
+      types:
+        Heat: 30
