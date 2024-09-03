@@ -475,7 +475,7 @@
 - type: entity
   name: disabler SMG
   parent: [ BaseWeaponBattery, BaseRestrictedContraband ]
-  id: WeaponDisablerSMG # Note to self - change to Energy SMG Later :3
+  id: WeaponDisablerSMG 
   description: Advanced weapon that exhausts organic targets, weakening them until they collapse.
   components:
   - type: Item
