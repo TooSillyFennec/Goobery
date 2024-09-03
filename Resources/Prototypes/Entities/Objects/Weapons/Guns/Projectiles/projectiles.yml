@@ -984,7 +984,7 @@
 
 - type: entity
   name: laser bolt 
-  id: BulletLaser
+  id: BulletEnergy # Goobstation
   parent: BaseBullet
   categories: [ HideSpawnMenu ]
   components:
@@ -1010,31 +1010,30 @@
           bounds: "-0.15,-0.3,0.15,0.3"
         hard: false
         mask:
-        - Impassable
-        - BulletImpassable
+        - Opaque # Goobstation
       fly-by: *flybyfixture
   - type: Ammo
   - type: Projectile
     impactEffect: BulletImpactEffectOrangeDisabler
     damage:
       types:
-        Heat: 13
+        Heat: 20 # Goobstation
 
 - type: entity
   name: wide laser barrage
-  id: BulletLaserSpread
+  id: BulletEnergyShotgunSpread # Goobstation
   noSpawn: true
-  parent: BulletLaser
+  parent: BulletEnergy
   components:
   - type: ProjectileSpread
-    proto: BulletLaser
+    proto: BulletEnergyShotgun
     count: 5 #65 heat damage if you hit all your shots, but wide spread
     spread: 30 
 
 - type: entity
-  name : heavy laser bolt
-  id: BulletLaserHeavy
-  parent: BulletLaser
+  name : light laser bolt
+  id: BulletEnergyLight # Goobstation
+  parent: BulletEnergy
   categories: [ HideSpawnMenu ]
   components:
   - type: Projectile
@@ -1044,14 +1043,14 @@
 
 - type: entity
   name: narrow laser barrage
-  id: BulletLaserHeavySpread
+  id: BulletEnergyLightSpread # Goobstation
   noSpawn: true
-  parent: BulletLaser
+  parent: BulletEnergy
   components:
   - type: ProjectileSpread
-    proto: BulletLaserHeavy
+    proto: BulletEnergyLight # Goobstation
     count: 4 #60 heat damage if you hit all your shots, but narrower spread
-    spread: 10
+    spread: 12 # Goobstation
 
 - type: entity
   name: disabling laser barrage
@@ -1061,5 +1060,5 @@
   components:
   - type: ProjectileSpread
     proto: BulletDisablerSmg
-    count: 3 #bit stronger than a disabler if you hit your shots you goober, still not a 2 hit stun though
-    spread: 9 
+    count: 4 # Goobstation - Land all shots for a 2-shot!
+    spread: 12 
