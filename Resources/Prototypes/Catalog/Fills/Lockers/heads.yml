@@ -131,7 +131,7 @@
     - id: RubberStampApproved
     - id: RubberStampDenied
     - id: RubberStampHop
-    - id: WeaponDisabler
+    - id: WeaponEnergyPistol # Goobstation - Pretty easy way to grant lethals and non-lethals for HoP, yet make HoP not able to go validhunting any harder than they already are.
     - id: ClothingEyesHudCommand
 
 - type: entity
