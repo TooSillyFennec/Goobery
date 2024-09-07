@@ -24,3 +24,109 @@
     magState: mag
     steps: 2
     zeroVisible: true
+    
+- type: entity
+  name: Energy Gun
+  parent: BaseWeaponBattery
+  id: WeaponEnergyGun
+  description: Security's Signature firearm, the energy gun can swap between harm and disbler bolts for a versatile combat experience, according to the entry program. 
+  - type: Sprite
+    sprite: Objects/Goobstation/Weapons/Guns/Battery/energygun.rsi
+    layers:
+      - state: base
+        map: ["enum.GunVisualLayers.Base"]
+      - state: mag-unshaded-4
+        map: ["enum.GunVisualLayers.MagUnshaded"]
+        shader: unshaded
+  - type: MagazineVisuals
+    magState: mag
+    steps: 4
+    zeroVisible: false
+  - type: Gun
+    fireRate: 2
+    soundGunshot:
+      path: /Audio/Goobstation/Weapons/Guns/Gunshots/energybolt.ogg
+  - type: ProjectileBatteryAmmoProvider
+    proto: BulletEnergy
+    fireCost: 62.5
+  - type: BatteryWeaponFireModes
+    fireModes:
+    - proto: BulletEnergy
+      fireCost: 62.5
+    - proto: BulletDisabler
+      fireCost: 62.5
+  - type: Item
+    size: Large
+    shape:
+    - 0,0,3,1
+    heldPrefix: energy
+    
+- type: entity
+  name: Energy Pistol
+  parent: BaseWeaponBattery
+  id: WeaponEnergyPistol
+  description: Security's basic on-duty firearm and the one gun they see the most often. Can fire lethal and disabler bolts, but slower and has less capacity than the larger version.
+  - type: Sprite
+    sprite: Objects/Goobstation/Weapons/Guns/Battery/mini_energygun.rsi
+    layers:
+      - state: base
+        map: ["enum.GunVisualLayers.Base"]
+      - state: mag-unshaded-4
+        map: ["enum.GunVisualLayers.MagUnshaded"]
+        shader: unshaded
+  - type: MagazineVisuals
+    magState: mag
+    steps: 4
+    zeroVisible: false
+  - type: Gun
+    fireRate: 1.5
+    soundGunshot:
+      path: /Audio/Weapons/Guns/Gunshots/taser2.ogg
+  - type: ProjectileBatteryAmmoProvider
+    proto: BulletDisabler
+    fireCost: 100
+  - type: BatteryWeaponFireModes
+    fireModes:
+    - proto: BulletDisabler
+      fireCost: 100
+    - proto: BulletEnergy
+      fireCost: 100
+  - type: Item
+    size: Small
+    shape:
+    - 0,0,1,0
+    - 0,1,0,1
+    heldPrefix: energy
+  - type: Tag
+    tags:
+    - Sidearm
+    
+- type: entity
+  name: Hellfire Carbine
+  parent: BaseWeaponBattery
+  id: WeaponEnergyGun
+  description: Warcrimes aren't a thing in the 26th century, and this proves that. Light them ablaze!
+  - type: Sprite
+    sprite: Objects/Goobstation/Weapons/Guns/Battery/energygun_hellfire.rsi
+    layers:
+      - state: base
+        map: ["enum.GunVisualLayers.Base"]
+      - state: mag-unshaded-4
+        map: ["enum.GunVisualLayers.MagUnshaded"]
+        shader: unshaded
+  - type: MagazineVisuals
+    magState: mag
+    steps: 4
+    zeroVisible: false
+  - type: Gun
+    fireRate: 2
+    soundGunshot:
+      path: /Audio/Goobstation/Weapons/Guns/Gunshots/energybolt.ogg
+  - type: ProjectileBatteryAmmoProvider
+    proto: BulletEnergyHellfire
+    fireCost: 62.5
+  - type: Item
+    size: Large
+    shape:
+    - 0,0,3,1
+    heldPrefix: energy
