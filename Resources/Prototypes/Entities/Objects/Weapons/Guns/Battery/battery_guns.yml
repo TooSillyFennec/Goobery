@@ -138,7 +138,7 @@
       map: ["enum.GunVisualLayers.MagUnshaded"]
       shader: unshaded
   - type: HitscanBatteryAmmoProvider
-    proto: RedMediumLaser # Goobstation - Very retro... old lasers!!!
+    proto: RedLaser # Goobstation - Very retro... old lasers!!!
     fireCost: 62.5
   - type: MagazineVisuals
     magState: mag
@@ -571,7 +571,7 @@
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/laser_cannon.ogg
   - type: HitscanBatteryAmmoProvider
-    proto: BulletEnergy # Goobstation - 13 has a disabler mode but i can't really sprite it that easy and cap has a disabler anyways :/ - TooSillyFennec :3
+    proto: RedMediumLaser # Goobstation - Very antiqueeee!!! :3
     fireCost: 100
   - type: BatterySelfRecharger
     autoRecharge: true
@@ -599,7 +599,7 @@
   name: advanced laser pistol
   parent: [ BaseWeaponBatterySmall, BaseRestrictedContraband]
   id: WeaponAdvancedLaser
-  description: An experimental high-energy laser pistol with a self-charging nuclear battery.
+  description: An experimental high-energy laser pistol with a self-charging nuclear battery, and rare laser-beam technology.
   components:
   - type: Item
     size: Normal  # Intentionally larger than other pistols
@@ -617,7 +617,7 @@
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/laser_cannon.ogg
   - type: HitscanBatteryAmmoProvider
-    proto: BulletEnergy # Goobstation
+    proto: RedLaser # Goobstation - same idea as retro/antique
     fireCost: 100
   - type: BatterySelfRecharger
     autoRecharge: true
