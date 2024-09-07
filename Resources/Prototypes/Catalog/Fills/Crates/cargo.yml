@@ -164,6 +164,9 @@
     - id: WeaponRifleFoam
       prob: 0.03
       orGroup: Weapons
+    - id: WeaponLaserSvalinn
+      prob: 0.01
+      orGroup: Weapons
     #clothing
     - id: ClothingUniformJumpsuitFamilyGuy
       prob: 0.05
