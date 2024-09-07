@@ -104,7 +104,7 @@
 - type: entity
   name: Hellfire Carbine
   parent: BaseWeaponBattery
-  id: WeaponEnergyGun
+  id: WeaponEnergyGunHellfire
   description: Warcrimes aren't a thing in the 26th century, and this proves that. Light them ablaze!
   - type: Sprite
     sprite: Objects/Goobstation/Weapons/Guns/Battery/energygun_hellfire.rsi
