@@ -320,6 +320,7 @@
       - id: RifleStock
       - id: ModularReceiver
       - id: HydroponicsToolScythe
+      - id: WeaponLaserSvalinn
     # Rare Group
     - !type:GroupSelector
       weight: 5
