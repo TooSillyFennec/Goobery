@@ -241,9 +241,9 @@
 - type: entity
   parent: GunSafe
   id: GunSafeLaserCarbine
-  name: laser safe
+  name: energy gun safe # Goobstation
   components:
   - type: StorageFill
     contents:
-    - id: WeaponLaserCarbine
+    - id: WeaponEnergyGun
       amount: 3
