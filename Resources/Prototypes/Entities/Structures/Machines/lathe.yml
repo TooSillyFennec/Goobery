@@ -821,6 +821,7 @@
       - WeaponLaserCannon
       - WeaponLaserCarbine
       - WeaponXrayCannon
+      - WeaponEnergyGunHellfire
   - type: MaterialStorage
     whitelist:
       tags:
