@@ -138,7 +138,7 @@
       map: ["enum.GunVisualLayers.MagUnshaded"]
       shader: unshaded
   - type: HitscanBatteryAmmoProvider
-    proto: BulletEnergy
+    proto: RedMediumLaser # Goobstation - Very retro... old lasers!!!
     fireCost: 62.5
   - type: MagazineVisuals
     magState: mag
