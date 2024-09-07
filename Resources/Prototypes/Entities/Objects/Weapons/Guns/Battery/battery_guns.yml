@@ -163,7 +163,7 @@
   - type: Clothing
     sprite: Objects/Weapons/Guns/Battery/makeshift.rsi
   - type: HitscanBatteryAmmoProvider
-    proto: Bulletenergy # Goobstation
+    proto: BulletEnergy # Goobstation
     fireCost: 62.5
   - type: Battery
     maxCharge: 500
@@ -473,10 +473,10 @@
     - Antagonists
 
 - type: entity
-  name: disabler SMG
+  name: energy SMG # Goobstation
   parent: [ BaseWeaponBattery, BaseRestrictedContraband ]
   id: WeaponDisablerSMG 
-  description: Advanced weapon that exhausts organic targets, weakening them until they collapse.
+  description: Advanced weapon that fires extremely fast, but weak bolts of energy. Can be toggled between harm and disabler bolts.
   components:
   - type: Item
     size: Large
@@ -502,6 +502,12 @@
   - type: ProjectileBatteryAmmoProvider
     proto: BulletDisablerSmg
     fireCost: 33
+  - type: BatteryWeaponFireModes # Goobstation
+    fireModes:
+    - proto: BulletDisablerSmg
+      fireCost: 33
+    - proto: BulletEnergySMG
+      fireCost: 33
   - type: MagazineVisuals
     magState: mag
     steps: 5
