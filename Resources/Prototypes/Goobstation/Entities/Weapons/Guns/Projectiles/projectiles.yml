@@ -10,7 +10,7 @@
         Heat: 13
         
 - type: entity
-  name : smg laser bolt
+  name : smg harm bolt
   id: BulletEnergySMG
   parent: BulletEnergy
   categories: [ HideSpawnMenu ]
@@ -41,7 +41,7 @@
   - type: Projectile
     damage:
       types:
-        Heat: 20
+        Heat: 19
   - type: IgnitionSource
     ignited: true
 
